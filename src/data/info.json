@@ -1,0 +1,61 @@
+{
+    "schools": [
+        {
+            "id": 1,
+            "period": "2023.09-pågående",
+            "schoolName": "Yrkeshögskolan, Vabrerg",
+            "other":"Systeutvecklare .NET"
+        },
+        {
+            "id": 2,
+            "period": "2022.01-2022.12",
+            "schoolName": "NTI-skolan, Varberg",
+            "other":"Svenska som andraspråk 2, Programmering 1, Matematik 2, Engelska 6"
+        },
+        {
+            "id": 3,
+            "period": "2006-2007",
+            "schoolName": "Chonbuk National University, Jeonju, South Korea",
+            "other":"Utbytesstudier, Studerat kurser i koreanska, antropologi"
+        },
+        {
+            "id" : 4,
+            "period": "2005-2010",
+            "schoolName": "Tohoku University, Sendai, Japan",
+            "other": "kandidatexamen, Utbildad till lärare i japanska som andraspråk."
+        },
+        {
+            "id" : 5,
+            "period": "2001-2004",
+            "schoolName": "Aomori High School, Aomori, Japan",
+            "other": "Studieförberedande gymnasieprogram"
+        }
+    ],
+    "works":[
+        {
+            "id": 1,
+            "period": "2019.01-12",
+            "schoolName": "Folkuniversitet, Göteborg",
+            "subject": "Lärare i japanska"
+        },
+        {
+            "id": 2,
+            "period": "2011.06 - 2016.07",
+            "schoolName": "Dalarna University, Falun",
+            "subject": "universitetsadjunkt i japanska"
+        },
+        {
+            "id": 3,
+            "period": "2009.06",
+            "schoolName": "Siam University, Bangkok, Thailand",
+            "subject": "lärare i japanska"
+        },
+        {
+            "id": 4,
+            "period": "2006-2007",
+            "schoolName": "Privatlärare, Jeonju, South Korea",
+            "subject": "Lärare i japanska"
+
+        }
+    ]
+}
