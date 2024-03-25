@@ -26,7 +26,7 @@ const Home = () => {
                   <div className="input-container">
                     <input type="password" className="inputBox" onChange = {handlePass}  value={pass} autoFocus/>
                   </div>
-            {/**    {isModalOpen&&(*/}   
+      
                     <div id="modal" >
                       <div class="modal-content">
                         <div class="modal-header">
@@ -39,7 +39,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                 {/*  )}*/}
+             
               </div>
         <img src= {mePic} alt="Asuka Hanada picture"/>
     </div>

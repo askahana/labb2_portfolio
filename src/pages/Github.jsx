@@ -8,7 +8,7 @@ export default function GitHub(){
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 4000); 
+    }, 3000); 
     return () => clearTimeout(timer);
   }, []);
 
@@ -18,5 +18,5 @@ export default function GitHub(){
     </div>
 
    );
-    
 };
+
