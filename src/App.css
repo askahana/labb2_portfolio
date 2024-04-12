@@ -12,6 +12,7 @@ a{
 }
 body{
   background: linear-gradient(var(--background), white);
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -35,6 +36,8 @@ body{
   animation-name: popup;
   animation-duration: 2s;
   letter-spacing: 1px;
+  min-width: 600px;
+  padding-left: 20px;
 }
 .main img{
   animation-name: popup-left;
@@ -70,7 +73,7 @@ footer #icon{
   background-image: url("assets/easter.jpg");
 }
 .normal-mode{
-  background: linear-gradient(pink, white);
+  background: var(--background);
 }
 /*header*/
 header{
@@ -122,7 +125,7 @@ header nav ul li a:hover::after{
 section{
   font-family: "Poppins";
   width:80%;
-  height: 700px;
+  min-height: 700px;
   background-color: whitesmoke;
   margin: 20px auto;
   border-radius: 15px;
@@ -186,8 +189,8 @@ section{
 }
 .aboutme .me-text{
   background: linear-gradient(#fff, #84dbef);
-  height: 250px;
-  width: 600px;
+  min-height: 260px;
+  max-width: 700px;
   margin-top: 60px;
   margin-left: -50px;
   z-index: 1;
@@ -219,7 +222,6 @@ section{
 #education .content,
 #experience .content{
   margin-left: 100px;
- 
 }
 
 #education .content p, 
@@ -272,7 +274,6 @@ section{
 .input-container{
   width: 50px;
   height: 50px;
-  /*background-image: url(./assets/cosmo.jpg);*/
   display: grid;
   place-items:center;
 }
@@ -355,7 +356,7 @@ section{
 
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
     
   header {
       max-width: 100%;
@@ -366,54 +367,63 @@ section{
     }
     header nav ul li {
       font-size: 0.8rem;
-      margin-left: 20px;
-      
+      margin-left: 20px; 
     }
     .head li:first-child {
       margin-left: 0;
     }
+    header nav ul li a::after{
+      display:none;
+    }
   .main{
-      padding-top: 50px;
-      font-size: 0.9rem; 
+      font-size: 0.7rem; 
       flex-direction: column;
   }
   .main img{
+      border-radius: 50%;
       margin-top: 50px;
       width: 200px;
   }
   section{
-      max-width: 960px;
-      margin: 10px auto 130px auto;
+      /*max-width: 960px;
+      margin: 10px auto 130px auto;*/
       font-size: 0.9rem; 
       padding: 0 4%;
+      height: 100vh;
   }
   .section-title{
-      padding-top: 20px;
+      padding-top: 40px;
+      padding-left: 20px;
       line-height: 1px;
       font-weight: 600;
-      font-size: 1rem;
+      font-size: 0.5rem;
   }
   .section-title h2{
       color: transparent;
   }
+#experience .section-title h3{
+    margin-left: -130px;
+  }
 
- 
   #education .content, 
   #experience .content{
+    margin-top: 50px;
     margin-left: -200px;
+    font-size: 0.8rem;
   }
 
   
   .aboutme .content{
       flex-direction: column;
       align-items: center;
+      font-size: 0.8rem;
   }
   .aboutme img{
       height: 200px;
   }
   .aboutme .me-text{
       width: 100%;
-      margin: 10px;
+      margin: 20px;
   }
 
   #skill .content{
@@ -423,6 +433,12 @@ section{
   }
   #skill .content .card-list img{
     width: 100px;
+  }
+  #skill .content .card-list{
+    margin-bottom: 30px;
+    padding: 50px;
+    background: white;
+    border-radius: 20px;
   }
   
 }

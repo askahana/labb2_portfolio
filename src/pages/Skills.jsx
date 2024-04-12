@@ -19,7 +19,7 @@ const Skills = () => {
             <div className="card-list">
                 <p className ="card-listImage"><a href="https://github.com/askahana/portfolio2" target="_balnk"><img src={html} alt="" /></a></p>
                 <p className="descritptionName">HTML/ CSS</p>
-                <p className="explanation">This pages' githubcode.</p>
+                <p className="explanation">This pages' code. <br />Made with react.</p>
             </div>
             <div className ="card-list">
                 <p className ="card-listImage"><Link to="/github"><img src={github} alt="" /></Link></p>

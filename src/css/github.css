@@ -59,3 +59,15 @@ th {
         opacity: 1;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .table-container {
+      width: 100%;
+    }
+    .table-container table {
+      width: 100%;
+    }
+    .table-container th, .table-container td {
+      padding: 10px; 
+    }
+  }

@@ -21,7 +21,7 @@ const Home = () => {
     <div className ="main">
         <div className ="short-text">
             <h1>Hej! Jag heter Asuka Hanada!</h1>
-            <h4>som läser systemutveckling .NET på Campus i Varberg, <br />
+            <h4>Jag läser systemutveckling .NET på Campus i Varberg, <br />
                  och söker en LIA-plats under vintern 2024-2025!</h4>
                   <div className="input-container">
                     <input type="password" className="inputBox" onChange = {handlePass}  value={pass} autoFocus/>

@@ -14,10 +14,12 @@ const About = () => {
     <div className="me-text">
         <h2>Asuka Hanada</h2>
         <p>Jag heter Asuka Hanada, utalas aska. Just nu läser jag systemutveckling .NET på Campus i Varberg, 
-            <br/>och min utblidningen blir färdig 2025.
-            <br/>
-            Jag utbilidade mig till lärare på ämnet på japasnka som andra språk,
-        och jobbade som lärare i Sverige i ungefär 6 år.
+            och min utblidningen blir färdig 2025.
+            <br/> <br/>
+            Tidigare har jag jobbat som lärare i ämnet japanska som andra språk i 6 år, men nu har jag bestämt mig att 
+            utmana mig själv, och få möjlighet att utvecklas.
+            <br/> <br/>
+            Som person är jag noggrann och bra på arbeta självständigt.
       </p>
     </div>
   </div>
