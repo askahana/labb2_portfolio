@@ -378,11 +378,19 @@ section{
   .main{
       font-size: 0.7rem; 
       flex-direction: column;
+      padding-top: 50px;
   }
   .main img{
       border-radius: 50%;
-      margin-top: 50px;
+      margin-top: -20px;
       width: 200px;
+      margin-left: 0;
+  }
+  .main .short-text {
+    min-width: auto;
+  }
+  .main .short-text{
+    margin-right: 30px;
   }
   section{
       /*max-width: 960px;
